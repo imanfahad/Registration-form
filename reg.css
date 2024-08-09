@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 9, 9);
+    background-image: url(./3135763.jpg);
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    color: cornsilk;
+    margin-bottom: 15px;
+}
+.container{
+    backdrop-filter: blur(8px);
+    background-color: #0000001b;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #ffffff80;
+    width: 70%;
+    height: 90%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#for{
+    margin: auto;
+}
+input{
+    border-radius: 5px;
+    border: none;
+    margin: 3% auto;
+    padding: 6px;
+    width: 190px;
+}
+.cit{
+    width: 90%;
+}
+.pds{
+    border-radius: 5px;
+    border: none;
+    padding: 6px 20px;
+    margin: 10px 0;
+    text-align: center;
+    width: 180px;
+}
+#btn:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+#btn{
+    color: white;
+    background-color: rgb(9, 137, 197);
+
+}
+#city{
+    float: right;
+    /* margin-right: 100px; */
+}
+#ln{
+    margin-left: 20px;
+}
+.add{
+    width: 90%;
+}
+
+.bCont{
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+.btnc{
+    border-radius: 5px;
+    padding: 7px 6px;
+    width: 140px;
+}
+
+.img{
+    width: 50%;
+}
+.img img {
+    width: 100%;
+    /* height: 70%; */
+}
+.container1{
+    padding:  40px;
+    width: 50%;
+    right: 0%;
+    top: 0;
+    position: absolute;
+}
+.gen{
+    font-size: 20px;
+}
+.gen input{
+    width: 50px;
+}
